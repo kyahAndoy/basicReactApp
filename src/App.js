@@ -23,7 +23,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <Router>
         <Switch>
-          <Route exact path="/create">
+          <Route exact path="/">
             <Create />
           </Route>
           <Route path="/notes">
